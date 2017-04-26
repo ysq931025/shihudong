@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /*margin-left: 2%;
+    margin-right: 2%;*/
+    margin: 0 4%;
+}
+
+
+/*标题*/
+
+.container header p {
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 8%;
+    font-size: 0.6rem;
+}
+
+
+/*小标题*/
+
+article .title {
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: #444;
+    margin-top: 5%;
+}
+
+
+/*所有的p*/
+
+article {
+    font-size: 0.4rem;
+}
+
+article p {
+    color: #333;
+    margin-top: 5%;
+}
+
+
+/*年龄输入线*/
+
+article .text {
+    width: 15%;
+    height: 10%;
+    border: 0;
+    border-bottom: 1px solid #444;
+    outline: none;
+    margin-top: 0 !important;
+}
+
+
+/*选框与文字对齐*/
+
+article input {
+    vertical-align: bottom;
+    /*margin-top: 10px;
+    margin-left: ;
+    margin-right: 2%;*/
+    margin: 10px 2% 0 6%;
+}
+
+article table {
+    width: 90%;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+article table,
+td {
+    border-collapse: collapse;
+}
+
+article table .good {
+    text-align: center;
+}
+
+
+/*article table */
+
+textarea {
+    border: none;
+    outline: none;
+    width: 97%;
+    margin-top: 5%;
+    resize: none;
+    overflow: hidden;
+}
+
+article .server {
+    width: 90%;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #444;
+}
+article .btn{
+    width: 30%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 5%;
+}
